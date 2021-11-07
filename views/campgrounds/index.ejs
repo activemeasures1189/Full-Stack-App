@@ -31,6 +31,7 @@
             <li><a href="/campgrounds/<%= campground._id%>"><%= campground.title%>, <%= campground.location %></a></li>
             <%})%>
         </div>
+        
         <script>
             const maptoken = '<%-process.env.MAPBOX_TOKEN%>';
             const campground = {features: <%-JSON.stringify(campgrounds)%>}
