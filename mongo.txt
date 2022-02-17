@@ -1,1 +1,2 @@
 "C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="C:\Users\Peter\mongodb-data"
+DB_URL=mongodb+srv://sabby:snowden1989@cluster0.neaqz.mongodb.net/yelpcamp?retryWrites=true&w=majority
